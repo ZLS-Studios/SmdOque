@@ -1,0 +1,1 @@
+ERRO: Exceção ao chamar "Open" com "0" argumento(s): "A porta 'COM7' não existe."

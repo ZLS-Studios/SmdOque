@@ -10,14 +10,17 @@ config_version=5
 
 [application]
 
-config/name="SMD O Quê?"
+config/name="SMD O Quê"
+config/description="SMD O Quê? é uma instalação interativa em formato de jogo arcade, inspirada em Duck Hunt, criada para apresentar o curso de Sistemas e Mídias Digitais da UFC. O jogador utiliza uma mira controlada por joystick para estourar balões, descobrir as quatro trilhas do curso e interagir com exemplos visuais de suas áreas.
+O projeto combina programação, design, audiovisual e jogos para explicar o caráter interdisciplinar do SMD de maneira divertida, prática e participativa."
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.6")
+config/icon="uid://c0hpl1w23bef"
 
 [arduino]
 
 enabled=true
-port="COM3"
+port="COM7"
 baud_rate=9600
 deadzone=0.25
 
@@ -61,3 +64,4 @@ shoot={
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
