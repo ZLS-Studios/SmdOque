@@ -19,7 +19,7 @@ config/icon="uid://c0hpl1w23bef"
 
 [arduino]
 
-enabled=true
+enabled=false
 port="COM7"
 baud_rate=9600
 deadzone=0.25
@@ -65,3 +65,16 @@ shoot={
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+
+[webcam]
+
+enabled=true
+auto_start_python=true
+python_executable="C:/Users/super/AppData/Local/Python/bin/python.exe"
+show_preview=false
+embed_preview=false
+camera_index=0
+udp_port=4242
+preview_udp_port=4243
+smoothing=0.38
+timeout=0.75
