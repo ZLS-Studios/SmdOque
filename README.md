@@ -15,7 +15,7 @@ O jogo apresenta Sistemas e Midias Digitais como uma formacao interdisciplinar q
 
 Cada trilha aparece como uma descoberta dentro do jogo, com exemplos visuais e pequenas explicacoes. A proposta e fazer o visitante entender rapidamente que SMD envolve programacao, design, audiovisual, jogos, interacao e producao de experiencias digitais.
 
-## Como e o jogo
+## Como é o jogo
 
 A experiencia e inspirada em jogos arcade como Duck Hunt:
 
